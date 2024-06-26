@@ -745,7 +745,7 @@ async function main() {
     } catch (err) {}
     const url = new URL(
         "test_3dgs.splat", 
-        "http://127.0.0.1:5501"
+        "https://test10.countingstars.cc"
     );
     const req = await fetch(url, {
         mode: "cors", // no-cors, *cors, same-origin
